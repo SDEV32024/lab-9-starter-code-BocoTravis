@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Books{% endblock title %}
+
+{% block content %}
+    {% for book in object_list %}
+        <div>
+            <h2><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></h2>
+            <p>Author: {{ book.author }}</p>
+            <p>Price: ${{ book.price }}</p>
+            <p>Publication Date: {{ book.date_publication }}</p>
+        </div>
+    {% empty %}
+        <p>No books available.</p>
+    {% endfor %}
+{% endblock content %}
