@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "53f19ea5-0d2b-47bc-9a4e-57e33b6a3e56",
+        "fields": {
+            "title": "goose creek",
+            "author": "summrs",
+            "price": "3.00",
+            "date_publication": "2024-11-09",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "8e76671e-5537-4a53-ad38-e5e2b0afe6e5",
+        "fields": {
+            "title": "night of living dummy",
+            "author": "rl stien",
+            "price": "4.00",
+            "date_publication": "2024-11-09",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "ec46e2e1-6c77-4ba4-8b31-8c06fb25f24a",
+        "fields": {
+            "title": "haunted mask",
+            "author": "rl stien",
+            "price": "4.00",
+            "date_publication": "2024-11-09",
+            "cover": "covers/PythonCookbook.jpg"
+        }
+    }
+]
